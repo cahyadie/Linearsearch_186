@@ -48,5 +48,9 @@ void linearsearch()
 				break;
 			}
 		}
+
+		if (i == n)
+			cout << "\n" << item << "not found in the array\n";
+		cout << "\nNumber of comparation : " << ctr << endl;
 	}
 }
